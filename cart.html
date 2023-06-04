@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <style>
+    /* Style the shopping cart container */
+    .cart {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 300px;
+    }
+    
+    /* Style the cart items */
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    /* Style the item name and price */
+    .item-name, .item-price {
+      font-size: 14px;
+    }
+    
+    /* Style the remove button */
+    .remove-btn {
+      background-color: #f44336;
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="cart">
+    <div class="cart-item">
+      <div class="item-name">Product 1</div>
+      <div class="item-price">$19.99</div>
+      <button class="remove-btn">Remove</button>
+    </div>
+    <div class="cart-item">
+      <div class="item-name">Product 2</div>
+      <div class="item-price">$9.99</div>
+      <button class="remove-btn">Remove</button>
+    </div>
+    <div class="cart-item">
+      <div class="item-name">Product 3</div>
+      <div class="item-price">$14.99</div>
+      <button class="remove-btn">Remove</button>
+    </div>
+  </div>
+</body>
+</html>
